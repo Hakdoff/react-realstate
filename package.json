@@ -6,7 +6,7 @@
   "homepage": "https://Hakdoff.github.io/react-realstate",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/react-realstate/",
     "preview": "vite preview",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
