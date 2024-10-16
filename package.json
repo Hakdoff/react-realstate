@@ -2,15 +2,14 @@
   "name": "real-estate",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://hakdoff.github.io/react-realstate/",
   "type": "module",
+  "homepage": "https://Hakdoff.github.io/react-realstate",
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^10.8.5",
